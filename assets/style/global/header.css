@@ -1,0 +1,47 @@
+.header-content {
+    width: 100%;
+    height: auto;
+    padding: .5% 3% .5% 3%;
+    max-width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffed00;
+}
+
+.header-content .logo {
+    display: inline-block;
+}
+
+.header-content .logo a {
+    display: inline-block;
+}
+
+.header-content .logo a img {
+    width: 5rem;
+}
+
+.header-content .menu ul {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.header-content .menu ul li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.header-content .menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-content .menu ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
