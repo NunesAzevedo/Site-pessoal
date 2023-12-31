@@ -1,3 +1,8 @@
+header {
+    width: 100%;
+    position: fixed;
+}
+
 .header-content {
     width: 100%;
     height: auto;
@@ -43,5 +48,5 @@
 
 .header-content .menu ul li a:hover {
     text-decoration: none;
-    color: red;
+    color: white;
 }
