@@ -1,18 +1,20 @@
 header {
     width: 100%;
+    height: auto;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .header-content {
     width: 100%;
-    height: auto;
-    padding: .5% 3% .5% 3%;
+    height: 100%;
+    /* padding: .5% 3% .5% 3%; */
     max-width: 100%;
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #ffed00;
 }
@@ -39,7 +41,7 @@ header {
 
 .header-content .menu ul li {
     list-style-type: none;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 }
 
 .header-content .menu ul li a {
